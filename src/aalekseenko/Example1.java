@@ -7,7 +7,7 @@ public class Example1 {
         Scanner sc = new Scanner(System.in)
         int month = Scanner.nextInt();
 
-
+dxdfxdfx
     }
 
 
