@@ -1,0 +1,30 @@
+package ryancharuk.LabOne;
+
+public class Lab {
+		public static void main(String[] args) {
+			System.out.println("Hello world");
+			int k = 3, j = 4, b = k * k + j * j;
+
+			System.out.println(k + "*" + k + "+" + j + "*" + j + "=" + b);
+			System.out.printf("%8s| %4s| %4s| %4s|%n", "2", "10", "8", "16");
+			printDashes(27);
+			System.out.println();
+
+			for (byte i = 0; i != - 1; i++) {
+				String binary = Integer.toBinaryString(i);
+				String octal = Integer.toOctalString(i);
+				String hex = Integer.toHexString(i);
+
+				if (binary.length() > 8) binary = binary.substring(binary.length() - 8);
+				binary = String.format("%8s", binary).replace(" ", "0");
+				System.out.printf("%8s| %4d| %4s| %4s| %n", binary, i, octal, hex);
+			}
+
+		}
+		static void printDashes(int numberOfDashes) {
+			for (int i = 0; i < numberOfDashes; ++ i) {
+				System.out.print("-");
+			}
+		}
+	}
+
