@@ -1,4 +1,4 @@
-package aalekseenko;
+/*package aalekseenko;
 
 import java.util.Scanner;
 
@@ -11,4 +11,4 @@ dxdfxdfx
     }
 
 
-}
+}*/
