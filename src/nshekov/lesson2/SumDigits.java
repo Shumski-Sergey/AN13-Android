@@ -12,9 +12,10 @@ public class SumDigits {
     }
     static int sumDigitsInNumber(int number){
         String num = String.valueOf(number);
+        char[] str = num.toCharArray();
         int sum = 0;
         for (int i = 0; i < 4; i++) {
-            sum += Integer.parseInt(String.valueOf(num.charAt(i)));
+            sum += Character.digit(str[i], 10);
         }
         return sum;
     }
