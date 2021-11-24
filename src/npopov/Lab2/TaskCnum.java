@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TaskCnum {
 
     public static int sumDigitsInNumber(int number) {
-        return (number%10)+(number%100-number%10)/10+(number%1000-number%100)/100+(number-number%1000)/1000;
+        return (number % 10) + (number % 100 - number % 10) / 10 + (number % 1000 - number % 100) / 100 + (number - number % 1000) / 1000;
     }
 
     public static void main(String[] args) {
