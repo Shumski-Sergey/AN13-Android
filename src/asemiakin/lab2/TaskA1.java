@@ -2,7 +2,7 @@ package asemiakin.lab2;
 
 import java.util.Scanner;
 
-public class taskA1 {
+public class TaskA1 {
     public static void main(String[] args) {
         int a, b;
         Scanner scanner = new Scanner(System.in);
