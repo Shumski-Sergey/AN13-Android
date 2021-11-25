@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class taskCycles1 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
+        System.out.println("Введите число");
         int a = sc.nextInt();
         int[] b = new int[10];
         int i = 0;
