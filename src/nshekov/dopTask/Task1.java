@@ -1,4 +1,4 @@
-package nshekov.lesson2.dopTask;
+package nshekov.dopTask;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package kvitko.Lab2.Homework.Additional_tasks;
+package kvitko.Additional_tasks;
 
 import java.util.Scanner;
 

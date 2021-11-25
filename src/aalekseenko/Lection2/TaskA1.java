@@ -10,7 +10,4 @@ public class TaskA1 {
         System.out.println((a+b)+" "+(a-b)+" "+(a*b)+" "+(a/b)+" "+(a%b));
         System.out.println((double)(a+b)+" "+(double)(a-b)+" "+(double)(a*b)+" "+(double)(a/b)+" "+(double)(a%b) );
     }
-
-
-
 }

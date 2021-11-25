@@ -1,4 +1,4 @@
-package mkornilkov.lesson2.lesson2;
+package mkornilkov.lesson2;
 
 import java.util.Scanner;
 
