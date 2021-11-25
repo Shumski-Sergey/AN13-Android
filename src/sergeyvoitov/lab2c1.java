@@ -10,9 +10,8 @@ public class lab2c1{
         double fahrenheit = convertCelsiumToFahrenheit(celsium);
         System.out.println(celsium + " градусов Цельсия равно " + fahrenheit + " градусов Фаренгейта");
     }
-
     private static double convertCelsiumToFahrenheit(int celsium){
-        double fahrenheit = celsium * 9. / 5 + 32;
+        double fahrenheit = celsium *9. / 5 + 32;
         return fahrenheit;
     }
 }
