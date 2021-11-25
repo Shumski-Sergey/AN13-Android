@@ -1,4 +1,4 @@
-package vabramchuk.lab2;
+package vabramchuk;
 import java.util.Scanner;
 class Main {
 

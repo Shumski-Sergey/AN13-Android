@@ -1,6 +1,6 @@
-package vabramchuk;
+package vabramchuk.lab2;
 import java.util.Scanner;
-public class AN_1_1{
+public class N1{
         public static void main(String[] args){
             Scanner sc = new Scanner(System.in);
             System.out.print("Введи месяц года");

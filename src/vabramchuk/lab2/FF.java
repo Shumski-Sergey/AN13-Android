@@ -1,3 +1,5 @@
+package vabramchuk.lab2;
+
 public class FF {
 
     public static void main(String[] args) {

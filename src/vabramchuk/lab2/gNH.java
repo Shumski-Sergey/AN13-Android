@@ -1,3 +1,5 @@
+package vabramchuk.lab2;
+
 public class gNH {
     private static int sum(int a, int s, int d, int f) {
         int sum = a + s + d;
