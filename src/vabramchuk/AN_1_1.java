@@ -1,4 +1,4 @@
-package vabramchuk.AN_1;
+package vabramchuk;
 import java.util.Scanner;
 public class AN_1_1{
         public static void main(String[] args){
