@@ -1,4 +1,4 @@
-package kvitko.Lab2;
+package kvitko.Lab2.Homework;
 
 import java.util.Scanner;
 
@@ -28,9 +28,9 @@ public class Lab2_task_B {
             x2=(-b+d)/2*a;
             System.out.println(x1+" "+x2);
         } else if (d==0){
-                x1=-b/2*a;
-                System.out.println(x1);
-            }
+            x1=-b/2*a;
+            System.out.println(x1);
+        }
         else if(d<0){
             System.out.println("Отрицательный дискриминант");
         }
