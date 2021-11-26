@@ -219,7 +219,6 @@ public class KrestNull {
                     coutGame = 1;
                 }
             }
-            if(twoWinners == 1) System.out.println("Победил " + a + "й игрок");
             for (int i = 0; i < 3; i++) {
                 if (area[0][i] == area[1][i] && area[1][i] == area[2][i] && area[0][i] != 0) {
                     a = area[0][i];
