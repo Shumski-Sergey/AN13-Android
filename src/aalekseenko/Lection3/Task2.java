@@ -13,5 +13,6 @@ public class Task2 {
         }
 if (counter == 0) {System.out.println("Введенное число простое");}
 else {System.out.println("Введенное число не простое");}
+
     }
 }
