@@ -1,4 +1,4 @@
-package ryancharuk.LabThree;
+package ryancharuk.LabThree.HomeWork;
 
 import java.text.NumberFormat;
 import java.util.Locale;
