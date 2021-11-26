@@ -1,4 +1,4 @@
-package ryancharuk.homework;
+package ryancharuk.LabTwo.homework;
 
 import java.util.Scanner;
 
@@ -20,8 +20,8 @@ public class celsium {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		System.out.print("Введите градусы по цельсию: ");
+//		System.out.print("Введите градусы по Цельсию: ");
 //		System.out.println(convert(sc.nextInt()));
-//		System.out.println(sumDigitsInNumber(sc.nextInt()));
+		System.out.println(sumDigitsInNumber(sc.nextInt()));
 	}
 }

@@ -1,4 +1,4 @@
-package ryancharuk.homework;
+package ryancharuk.LabTwo.homework;
 
 public class poem {
 	public static void main(String[] args) {

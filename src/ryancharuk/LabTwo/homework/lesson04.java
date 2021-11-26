@@ -1,4 +1,4 @@
-package ryancharuk.homework;
+package ryancharuk.LabTwo.homework;
 
 import java.util.Scanner;
 
