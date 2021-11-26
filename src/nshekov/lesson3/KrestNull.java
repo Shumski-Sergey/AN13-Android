@@ -9,7 +9,7 @@ public class KrestNull {
         int cout = 0;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                area[i][j] = cout;
+                area[i][j] = cout + 1;
                 System.out.print(area[i][j] + "\t");
                 cout++;
             }
@@ -39,7 +39,7 @@ public class KrestNull {
         System.out.println("Первый игрок ходит:");
         int move = sc.nextInt();
         switch (move){
-            case 0:
+            case 1:
                 if (area[0][0] == 0) {
                     area[0][0] = 1;
                 } else{
@@ -47,7 +47,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 1:
+            case 2:
                 if (area[0][1] == 0) {
                     area[0][1] = 1;
                 } else{
@@ -55,7 +55,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 2:
+            case 3:
                 if (area[0][2] == 0) {
                     area[0][2] = 1;
                 } else{
@@ -63,7 +63,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 3:
+            case 4:
                 if (area[1][0] == 0) {
                     area[1][0] = 1;
                 } else{
@@ -71,7 +71,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 4:
+            case 5:
                 if (area[1][1] == 0) {
                     area[1][1] = 1;
                 } else{
@@ -79,7 +79,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 5:
+            case 6:
                 if (area[1][2] == 0) {
                     area[1][2] = 1;
                 } else{
@@ -87,7 +87,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 6:
+            case 7:
                 if (area[2][0] == 0) {
                     area[2][0] = 1;
                 } else{
@@ -95,7 +95,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 7:
+            case 8:
                 if (area[2][1] == 0) {
                     area[2][1] = 1;
                 } else{
@@ -103,7 +103,7 @@ public class KrestNull {
                     firstPlayer(area);
                 }
                 break;
-            case 8:
+            case 9:
                 if (area[2][2] == 0) {
                     area[2][2] = 1;
                 } else{
@@ -123,7 +123,7 @@ public class KrestNull {
         System.out.println("Второй игрок ходит:");
         int move = sc.nextInt();
         switch (move){
-            case 0:
+            case 1:
                 if (area[0][0] == 0) {
                     area[0][0] = 2;
                 } else{
@@ -131,7 +131,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 1:
+            case 2:
                 if (area[0][1] == 0) {
                     area[0][1] = 2;
                 } else{
@@ -139,7 +139,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 2:
+            case 3:
                 if (area[0][2] == 0) {
                     area[0][2] = 2;
                 } else{
@@ -147,7 +147,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 3:
+            case 4:
                 if (area[1][0] == 0) {
                     area[1][0] = 2;
                 } else{
@@ -155,7 +155,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 4:
+            case 5:
                 if (area[1][1] == 0) {
                     area[1][1] = 2;
                 } else{
@@ -163,7 +163,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 5:
+            case 6:
                 if (area[1][2] == 0) {
                     area[1][2] = 2;
                 } else{
@@ -171,7 +171,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 6:
+            case 7:
                 if (area[2][0] == 0) {
                     area[2][0] = 2;
                 } else{
@@ -179,7 +179,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 7:
+            case 8:
                 if (area[2][1] == 0) {
                     area[2][1] = 2;
                 } else{
@@ -187,7 +187,7 @@ public class KrestNull {
                     secondPlayer(area);
                 }
                 break;
-            case 8:
+            case 9:
                 if (area[2][2] == 0) {
                     area[2][2] = 2;
                 } else{
