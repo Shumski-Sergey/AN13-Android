@@ -1,7 +1,7 @@
 package vabramchuk.lab3;
 import java.io.*;
 import java.util.Scanner;
-public class Prostoe {
+public class Lab_2_Prostoe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введи число");
