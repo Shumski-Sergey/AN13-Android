@@ -10,10 +10,6 @@ public class Task4 {
         int num2 = scanner.nextInt();
         int num3 = scanner.nextInt();
         int positive_num = 0;
-        if (num1<=0 && num2<=0 && num3<=0) {
-            System.out.println("Положительных чисел нет");
-            System.exit(0);
-        }
         if (num1 > 0) positive_num++;
         if (num2 > 0) positive_num++;
         if (num3 > 0) positive_num++;
