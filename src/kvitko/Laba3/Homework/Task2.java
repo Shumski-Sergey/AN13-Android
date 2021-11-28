@@ -1,10 +1,7 @@
 package kvitko.Laba3.Homework;
 
-import java.util.Scanner;
-
 public class Task2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int a[] = new int[50];
         int b = 1;
         for (int i = 0; i < a.length; i++, b += 2) {
