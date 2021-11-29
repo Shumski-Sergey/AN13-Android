@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task1_1_5 {
     public static void main(String[] args) {
-        int max = 50, sum = 0, productNumber1 = 0,productNumber2 = 0, choose = 0;
+        int max = 50, sum = 0, productNumber1 = 0,productNumber2 = 0, chooseTask = 0;
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         System.out.print("Введите размер квадратной матрицы:");
@@ -18,9 +18,9 @@ public class Task1_1_5 {
             }
             System.out.print("\n");
         }
-        while(choose != 6) {
+        while(chooseTask != 6) {
             System.out.print("Выберите решение задач 1-5 или завершите программу 6:");
-            int chooseTask = scanner.nextInt();
+            chooseTask = scanner.nextInt();
             switch (chooseTask) {
                 case 6:{ System.out.print("\n" + "Работа завершена.");
                     break;

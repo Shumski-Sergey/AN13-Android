@@ -7,31 +7,32 @@ public class PlayTic {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите координату 1:");
         coordinate1 = scanner.nextInt();
-        while (coordinate1 < 0 && coordinate1 > 2) {
+        while (coordinate1 < 0 || coordinate1 > 2) {
             System.out.print("Введите координату от 0 до 2!");
             coordinate1 = scanner.nextInt();
         }
         System.out.print("Введите координату 2:");
         coordinate2 = scanner.nextInt();
-        while (coordinate2 < 0 && coordinate2 > 2) {
+        while (coordinate2 < 0 || coordinate2 > 2) {
             System.out.print("Введите координату от 0 до 2!");
             coordinate2 = scanner.nextInt();
         }
         if (array[coordinate1][coordinate2] != ' ') {
             System.out.print("Данная клетка уже занята, выберите другую." + "\n");
             coordinate(ch, coordinate1, coordinate2, array);
-        }
-        array[coordinate1][coordinate2] = ch;
+        } else array[coordinate1][coordinate2] = ch;
     }
 
     public static int play(char[][] array) {
         int counter = 0;
         System.out.print("\n");
+        System.out.print("\n" + "_________________________" + "\n");
         for (int i = 0; i < 3; i++) {
+            System.out.print("| ");
             for (int j = 0; j < 3; j++) {
                 System.out.format("%8s", array[i][j] + "   | ");
             }
-            System.out.print("\n" + "_______________________" + "\n");
+            System.out.print("\n" + "_________________________" + "\n");
         }
         System.out.print("\n");
         if ((array[0][0] == array[0][1] && array[0][1] == array[0][2] && array[0][2] == 'X') ||
