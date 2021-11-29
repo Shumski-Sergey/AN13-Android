@@ -7,10 +7,11 @@ public class Task1 {
         for( int i=0; i <= 9; i++, j+=2){
             array[i]= j+2;
             System.out.print(array[i]+ " ");
-        }
-        System.out.print("\n");
-        for( int i=0; i <= array.length; i++ ){
             System.out.println(array[i]);
         }
+       // System.out.print("\n");
+    //    for( int i=0; i <= array.length; i++ ){
+
+     //   }
     }
 }
