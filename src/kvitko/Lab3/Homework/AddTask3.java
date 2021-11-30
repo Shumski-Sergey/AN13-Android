@@ -1,4 +1,4 @@
-package kvitko.Laba3.Homework;
+package kvitko.Lab3.Homework;
 
 import java.util.Scanner;
 

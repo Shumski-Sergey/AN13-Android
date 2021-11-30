@@ -1,4 +1,4 @@
-package kvitko.Laba3.Homework;
+package kvitko.Lab3.Homework;
 
 public class Task6 {
     public static void main(String[] args) {

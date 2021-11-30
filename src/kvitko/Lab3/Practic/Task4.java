@@ -1,4 +1,4 @@
-package kvitko.Laba3.Practic;
+package kvitko.Lab3.Practic;
 
 import java.util.Scanner;
 
