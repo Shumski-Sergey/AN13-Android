@@ -1,4 +1,4 @@
-package mshpudeyko.Practic2.OneDimensional;
+package mshpudeyko.Practice2.Tasks;
 
 import java.util.Scanner;
 

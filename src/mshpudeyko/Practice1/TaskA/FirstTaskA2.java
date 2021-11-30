@@ -1,4 +1,4 @@
-package mshpudeyko.Practic1.TaskA;
+package mshpudeyko.Practice1.TaskA;
 
 
 public class FirstTaskA2 {

@@ -1,7 +1,10 @@
-package mshpudeyko.Practic2.OneDimensional;
-import java.util.Scanner;
+package mshpudeyko.Practice2.OneDimensional;
 import java.util.Random;
-
+/*
+* Создайте массив из 15 случайных целых чисел из отрезка [0; 99]. Выведите
+массив на экран. Подсчитайте сколько в массиве чётных элементов и выведете
+это количество на экран на отдельной строке.
+* */
 public class Tks3 {
     public static void main(String[] args) {
         int size = 15, min = 0, max = 99;

@@ -1,4 +1,4 @@
-package mshpudeyko.Practic1.TackC;
+package mshpudeyko.Practice1.TackC;
 
 public class SecondTaskC {
     public static int sumDigitsInNumber(int number){
