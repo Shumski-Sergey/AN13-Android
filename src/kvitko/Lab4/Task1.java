@@ -20,25 +20,25 @@ public class Task1 {
         System.out.println();
 
         int min = str[0].length(), max = 0;
-        String max_str=new String();
+        String max_str = new String();
 
         for (int i = 0; i < n; i++) {
-            if(max<str[i].length()) {
-                max=str[i].length();
-                max_str=str[i];
+            if (max < str[i].length()) {
+                max = str[i].length();
+                max_str = str[i];
             }
         }
-        System.out.println("Наибольшая строка "+max_str+" с длинной "+max);
+        System.out.println("Наибольшая строка " + max_str + " с длинной " + max);
 
-        String min_str=new String();
+        String min_str = new String();
 
-        for (int i = 0; i <n; i++) {
-            if(min>str[i].length()) {
-                min=str[i].length();
-                min_str=str[i];
+        for (int i = 0; i < n; i++) {
+            if (min > str[i].length()) {
+                min = str[i].length();
+                min_str = str[i];
             }
         }
-        System.out.println("Наименьшая строка "+min_str+" с длинной "+min);
+        System.out.println("Наименьшая строка " + min_str + " с длинной " + min);
 
     }
 }
