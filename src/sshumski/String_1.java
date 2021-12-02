@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class String_1 {
+public class String_1 extends Object {
     private static final SimpleDateFormat FORMAT_RU_DATE = new SimpleDateFormat("dd-MMMM-yyyy", new Locale("RU"));
 
     /**
@@ -17,7 +17,7 @@ public class String_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите количество строк: ");
-        int countStr = sc.nextInt();
+        Integer countStr = sc.nextInt();
         System.out.println("Строка №1: ");
         String maxLine = sc.next();
         String minLine = maxLine;
