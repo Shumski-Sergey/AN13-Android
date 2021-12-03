@@ -7,12 +7,15 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите количество строк: ");
         int CountStr = sc.nextInt();
+        String MaxLine = sc.nextLine();
+
         System.out.println("Строка №1: ");
-        String MaxLine = sc.next();
-        String MinLine = MaxLine;
+        String next = sc.nextLine();
+        String MinLine = next;
         for (int i = 2; i <= CountStr; i++) {
+
             System.out.println("Строка" + "№" + i + ": ");
-            String next = sc.next();
+            next = sc.nextLine();
             if (MaxLine.length() < next.length()) {
                 MaxLine = next;
             } else if (MinLine.length() > next.length()) {

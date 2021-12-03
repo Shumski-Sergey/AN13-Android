@@ -30,8 +30,7 @@ public class Task2 {
         String [] MassStr = new String[CountStr];
         for (int i = 0; i < CountStr; i++) {
             System.out.println("Введите строку №" + (i+1));
-            Scanner ssc = new Scanner(System.in);
-            MassStr[i] = ssc.next();
+            MassStr[i] = sc.next();
         }
             Comparator<String> stringLengthComparator = new StringLengthSort();
             Arrays.sort(MassStr, stringLengthComparator);
