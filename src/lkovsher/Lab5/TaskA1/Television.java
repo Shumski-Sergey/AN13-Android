@@ -24,4 +24,10 @@ public class Television extends AudioVideoTechnique{
             System.out.println("Устройство телевизор отключено от розетки.");
         }
     }
+
+    void print(){
+        System.out.println("Телевизор: " + " \n" + "Фирма: " + this.getFirm() + " \n" + "Стоимость: " + this.getPrice()
+                + " \n" + "Параметр звука: " + this.getSound() + "\n" + "Диагональ: " + this.getScreenDiagonal() + "\n" +
+                "Разрешение экрана: " + this.getPermission() + "\n");
+    }
 }

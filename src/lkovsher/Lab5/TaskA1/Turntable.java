@@ -19,4 +19,9 @@ public class Turntable extends AudioVideoTechnique{
             System.out.println("Устройство проигрователь отключено от розетки.");
         }
     }
+
+    void print(){
+        System.out.println("Проигрователь: " + " \n" +"Фирма: " + this.getFirm() + " \n" + "Стоимость: " + this.getPrice()
+                + " \n" + "Параметр звука: " + this.getSound() + "\n" + "Количество портов: " + this.getNumberPorts() + "\n");
+    }
 }
