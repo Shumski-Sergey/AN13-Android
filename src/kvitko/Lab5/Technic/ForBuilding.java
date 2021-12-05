@@ -1,9 +1,9 @@
-package kvitko.Lab5.Homework.Technic;
+package kvitko.Lab5.Technic;
 
-public class ForCooking extends Technic {
+public class ForBuilding extends Technic {
     String ForWhat;
 
-    public ForCooking(String TypeOfItem, String ForWhat) {
+    public ForBuilding(String TypeOfItem, String ForWhat) {
         super(TypeOfItem);
         this.ForWhat = ForWhat;
     }

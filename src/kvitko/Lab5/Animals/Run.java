@@ -1,4 +1,4 @@
-package kvitko.Lab5.Homework.Animals;
+package kvitko.Lab5.Animals;
 
 public class Run {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package kvitko.Lab5.Homework.Technic;
+package kvitko.Lab5.Technic;
 
-public class Microwave extends ForCooking {
+public class WeldingMachine extends ForBuilding {
     String item;
     String socket;
 
-    public Microwave(String TypeOfItem, String ForWhat, String item, String socket) {
+    public WeldingMachine(String TypeOfItem, String ForWhat, String item, String socket) {
         super(TypeOfItem, ForWhat);
         this.item = item;
         this.socket = socket;

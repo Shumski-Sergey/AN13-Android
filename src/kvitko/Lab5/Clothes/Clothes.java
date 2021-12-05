@@ -1,4 +1,4 @@
-package kvitko.Lab5.Homework.Clothes;
+package kvitko.Lab5.Clothes;
 
 import java.util.Scanner;
 

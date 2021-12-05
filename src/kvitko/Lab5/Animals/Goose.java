@@ -1,4 +1,4 @@
-package kvitko.Lab5.Homework.Animals;
+package kvitko.Lab5.Animals;
 //Рядом с мышью — и гусь велик, но вот рядом с драконом...
 // В этой задаче у нас будут гуси (класс Goose) и драконы (класс Dragon).
 // А также их предки, классы BigAnimal или SmallAnimal, кто чей предок — догадайтесь сами.

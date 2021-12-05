@@ -1,4 +1,4 @@
-package kvitko.Lab2.Homework;
+package kvitko.Lab2;
 
 public class Lab2_task_c2 {
     public static int sumDigitsInNumber(int number){

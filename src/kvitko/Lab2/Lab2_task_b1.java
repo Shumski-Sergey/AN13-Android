@@ -1,4 +1,4 @@
-package kvitko.Lab2.Homework;
+package kvitko.Lab2;
 
 public class Lab2_task_b1 {
     public static void main(String[] args) {

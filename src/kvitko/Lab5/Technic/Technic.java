@@ -1,4 +1,4 @@
-package kvitko.Lab5.Homework.Technic;
+package kvitko.Lab5.Technic;
 
 public class Technic {
     String TypeOfItem;

@@ -1,6 +1,4 @@
-package kvitko.Lab5.Homework.Clothes;
-
-import kvitko.Lab5.Homework.Clothes.Clothes;
+package kvitko.Lab5.Clothes;
 
 public class ClothesRun {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package kvitko.Lab5.Homework.Technic;
+package kvitko.Lab5.Technic;
 
-public class Drill extends ForBuilding {
+public class Stove extends ForCooking {
     String item;
     String socket;
 
-    public Drill(String TypeOfItem, String ForWhat, String item, String socket) {
+    public Stove(String TypeOfItem, String ForWhat, String item, String socket) {
         super(TypeOfItem, ForWhat);
         this.item = item;
         this.socket = socket;
