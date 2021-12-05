@@ -4,4 +4,6 @@ public class KitchenAppliances extends Appliances {
 	public KitchenAppliances(String name, int weight, boolean works) {
 		super(name, weight, works);
 	}
+
 }
+

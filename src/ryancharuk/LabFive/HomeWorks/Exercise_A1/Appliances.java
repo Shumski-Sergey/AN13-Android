@@ -23,16 +23,16 @@ public  abstract class Appliances {
 	public boolean isWorks() {
 		return works;
 	}
+
 	public void connected() {
-		if (isWorks()){
+		if (isWorks()) {
 			System.out.println("Прибор подключён к розетке");
-		}
-		else {
+		} else {
 			System.out.println("Прибор не подключён к розетке");
 		}
 	}
 
-	public void info (){
+	public void info() {
 		System.out.printf("Брэнд: %s \t Вес: %d кг\n\n", getName(), getWeight());
 	}
 }
