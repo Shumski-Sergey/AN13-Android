@@ -12,11 +12,15 @@ package sshumski.Lab5;
  */
 
 public class Runner {
+    //TODO @shumski.s: Что делает переменная?! Допиши плизз!!
+    private static final int OFFSET_IMAGE = 1043;
+
     private Character name;
     public static void main(String[] args) {
         Person firstPerson = new Person();
         Person secondPerson = new Person(18-1, "Robert");
         System.out.println(secondPerson);
+        System.out.println(OFFSET_IMAGE);
         firstPerson.talk();
         secondPerson.talk();
     }

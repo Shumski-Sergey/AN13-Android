@@ -1,6 +1,9 @@
 package sshumski.Lab5;
 
 public class Person {
+    public static String PERSON_CLASS_NAME = "Person";
+    private static final int OFFSET_IMAGE = 1043;
+
     private int age;
     private String fullName;
 
