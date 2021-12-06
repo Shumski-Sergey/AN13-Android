@@ -16,4 +16,7 @@ public class Mobile {
     public double getSumm() {
         return summ;
     }
+
+    public void info(int i) {
+    }
 }
