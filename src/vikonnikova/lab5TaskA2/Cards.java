@@ -13,10 +13,10 @@ public class Cards {
 
     public String getOwner() { return owner; }
     public int getNumber () { return number; }
-    public String getbank() { return bank; }
+    public String getBank() { return bank; }
 
 
     public void displayInfo() {
-
+        System.out.println("Владелец карты: " + getOwner() + "номер карты: " + getNumber() + "банк: " + getBank());
     }
 }
