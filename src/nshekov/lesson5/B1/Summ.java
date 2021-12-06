@@ -7,9 +7,18 @@ public class Summ {
     Scanner sc = new Scanner(System.in);
     long r1, r2, rubles;
     int c1Int, c2Int;
-    char[] cents;
+    char[] cents, c1, c2;
 
-    public Summ(long r1, char[] c1, long r2, char[] c2) {
+    public Summ() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите первую сумму:");
+        String moneyFirst = sc.next();
+        this.r1 = Long.parseLong(moneyFirst.substring(0, moneyFirst.length() - 3));
+        this.c1 = moneyFirst.substring(moneyFirst.length() - 2).toCharArray();
+        System.out.println("Введите вторую сумму:");
+        String moneySecond = sc.next();
+        this.r2 = Long.parseLong(moneySecond.substring(0, moneySecond.length() - 3));
+        this.c2 = moneySecond.substring(moneySecond.length() - 2).toCharArray();
         this.c1Int = Integer.parseInt(String.valueOf(c1)) * 10;
         this.c2Int = Integer.parseInt(String.valueOf(c2)) * 10;
         this.r1 = r1 * 1000 + c1Int;
