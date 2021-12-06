@@ -1,4 +1,4 @@
-package nshekov.lesson5.A3;
+package nshekov.lesson5.B1;
 
 import java.util.Scanner;
 

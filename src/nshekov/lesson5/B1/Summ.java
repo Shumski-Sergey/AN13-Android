@@ -1,6 +1,4 @@
-package nshekov.lesson5.A3;
-
-import org.w3c.dom.ls.LSOutput;
+package nshekov.lesson5.B1;
 
 import java.util.Scanner;
 
