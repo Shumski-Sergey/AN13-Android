@@ -1,4 +1,4 @@
-package vabramchuk.Lab5.LAB_practica2;
+/*package vabramchuk.Lab5.LAB_practica2;
 
 public class main {
     public static void main(String[] args) {
@@ -8,4 +8,4 @@ public class main {
         w.displey();
 
     }
-}
+}*/
