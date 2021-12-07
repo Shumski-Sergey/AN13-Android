@@ -14,6 +14,7 @@ public class workC1 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите температуру в цельясиях: ");
          int cels = scanner.nextInt();
+        System.out.println(convertCelsiumToFarenheit(25));
 
 
         System.out.println(convertCelsiumToFarenheit(cels));
