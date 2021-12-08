@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 BigAnimal dragon = new Dragon();
 SmallAnimal goose = new Goose();
-        System.out.println(dragon.size);
-        System.out.println(goose.size);
+        System.out.println(dragon.getSize());
+        System.out.println(goose.getSize());
 
     }
 }
