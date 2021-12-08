@@ -2,7 +2,7 @@ package nshekov.lesson6;
 
 public class Task1{
 
-    public static void main (String args[]) {
+    public static void main (String[] args) {
         Clothes shoes = new Clothes("Туфли");
         shoes.moveOn(shoes.getClothe());
         shoes.moveOf(shoes.getClothe());
