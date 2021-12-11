@@ -17,18 +17,6 @@ public class Robot implements Realisable{
         this.name = name;
     }
 
-    public IHead getHead() {return this.head;}
-
-    public void setHead(IHead head) {this.head = head;}
-
-    public IHand getHand() {return hand;}
-
-    public void setHand(IHand hand) {this.hand = hand;}
-
-    public ILeg getLeg() {return leg;}
-
-    public void setLeg(ILeg leg) {this.leg = leg;}
-
     public String getName() {return name;}
 
     public void setName(String name) {this.name = name;}
