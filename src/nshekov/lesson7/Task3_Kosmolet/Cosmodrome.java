@@ -15,6 +15,11 @@ class Cosmodrome {
             start.engineStarting();
             for (int i = 10; i > 0; i--) {
                 System.out.print(i + "\t");
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
+                }
             }
             System.out.println();
             start.start();
