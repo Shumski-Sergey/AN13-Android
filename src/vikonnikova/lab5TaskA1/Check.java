@@ -1,8 +1,5 @@
 package vikonnikova.lab5TaskA1;
 
-
-import java.util.concurrent.Callable;
-
 public class Check {
     public static void main(String[] args) {
         KitchenTech CoffeeMaker = new CofeeMaker ("small", false, "Philips");
