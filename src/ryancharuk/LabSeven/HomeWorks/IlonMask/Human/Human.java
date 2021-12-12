@@ -11,6 +11,8 @@ public class Human implements IHuman {
 	private HumanPants pants;
 	private HumanShoes shoes;
 	private String name;
+	private boolean ready;
+
 
 	public Human(HumanJacket jacket, HumanPants pants, HumanShoes shoes, String name) {
 		this.jacket = jacket;
@@ -48,9 +50,7 @@ public class Human implements IHuman {
 		} else {
 			System.out.println("Вы что-то забыли надеть");
 		}
-
 	}
-
 
 	@Override
 	public void undress() {
@@ -62,5 +62,16 @@ public class Human implements IHuman {
 		} else {
 			System.out.println("Вы что-то забыли снять");
 		}
+	}
+
+	public boolean isReady() {
+		if (jacket.isCheck() & pants.isCheck() & shoes.isCheck()) {
+			System.out.println("Маск оделся и готов");
+			return true;
+		} else {
+			System.out.println("Маск ещё не оделся");
+			return false;
+		}
+
 	}
 }

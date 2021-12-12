@@ -20,7 +20,6 @@ public class HumanJacket implements Jacket {
 	@Override
 	public void takeOff() {
 		System.out.println("Курта снята");
-
 		check = false;
 	}
 	public boolean isCheck(){
