@@ -1,14 +1,16 @@
 package vabramchuk.Lab6.Task1A;
 
-public class Clothes implements Movable, Sellable, Discountable{
+public class Clothes {
 
-    public void mov(){
+      public void mov() {
         System.out.println("Купить одежду");
     }
-    public void sell(){
+
+    public void sell() {
         System.out.println("Носить одежду");
     }
-    public void discount(){
+
+    public void discount() {
         System.out.println("Продать со скидкой");
     }
 
