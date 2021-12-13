@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.IHead;
 
-public class Sony_head  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Sony_head implements Head, Actions {
     int price;
     String head, action;
 

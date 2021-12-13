@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.ILeg;
 
-public class Sony_leg  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Sony_leg implements Leg, Actions {
   public int price;
   public String leg, action;
 

@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.IHand;
 
-public class Toshiba_hand  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Toshiba_hand implements Hand, Actions {
     int price;
     String hand,action;
 

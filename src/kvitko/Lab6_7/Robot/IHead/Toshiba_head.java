@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.IHead;
 
-public class Toshiba_head  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Toshiba_head implements Head, Actions {
     int price;
     String head, action;
 

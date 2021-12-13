@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.IHand;
 
-public class Sony_hand  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Sony_hand implements Hand, Actions {
     int price;
     String hand,action;
 

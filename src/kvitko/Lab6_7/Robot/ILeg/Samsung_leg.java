@@ -1,8 +1,8 @@
 package kvitko.Lab6_7.Robot.ILeg;
 
+import kvitko.Lab6_7.Robot.Actions;
 
-
-public class Samsung_leg {
+public class Samsung_leg implements Leg, Actions {
     int price;
     String leg, action;
 

@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.ILeg;
 
-public class Toshiba_leg {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Toshiba_leg implements Leg, Actions {
     int price;
     String leg, action;
 

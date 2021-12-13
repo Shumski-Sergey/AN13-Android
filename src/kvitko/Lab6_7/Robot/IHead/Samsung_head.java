@@ -1,6 +1,8 @@
 package kvitko.Lab6_7.Robot.IHead;
 
-public class Samsung_head  {
+import kvitko.Lab6_7.Robot.Actions;
+
+public class Samsung_head implements Head, Actions {
     int price;
     String head, action;
 
