@@ -1,4 +1,4 @@
-package sshumski.Lab5;
+/*package sshumski.Lab5;
 
 
 import com.sun.org.apache.xml.internal.security.exceptions.AlgorithmAlreadyRegisteredException;
@@ -16,4 +16,4 @@ public class Runner {
         throw new Exception("Nsafa");
     }
 
-}
+}*/
