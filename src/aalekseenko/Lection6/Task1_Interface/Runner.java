@@ -16,5 +16,6 @@ purchase.soldOut();
 System.out.println(purchase.getAmount());
 System.out.println(purchase.getNameOfClothes());
 
+
     }
 }
