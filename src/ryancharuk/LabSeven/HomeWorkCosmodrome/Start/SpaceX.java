@@ -20,7 +20,7 @@ public class SpaceX implements IStart{
 
 	@Override
 	public void engineStart() {
-		System.out.println("Двигатели Шатла запущены. Все системы в норме");
+		System.out.println("Двигатели SpaceX запущены. Все системы в норме");
 	}
 
 	@Override
