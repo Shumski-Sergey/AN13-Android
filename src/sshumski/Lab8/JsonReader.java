@@ -10,8 +10,8 @@ public class JsonReader {
         try {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             String jsonText = readAll(rd);
-//            JSONParser parser = new JSONParser();
-//            JSONObject json = (JSONObject) parser.parse(stringToParse);
+//            JSONParser parser = new JSONParser(jsonText);
+//            JsonTestUrl json = (JsonTestUrl) parser.parse(jsonText);
 
             return jsonText;
         } finally {
@@ -19,7 +19,7 @@ public class JsonReader {
         }
     }
 
-    public static String readAll(Reader rd) throws IOException {
+    private static String readAll(Reader rd) throws IOException {
         StringBuilder sb = new StringBuilder();
         int cp;
         while ((cp = rd.read()) != -1) {
