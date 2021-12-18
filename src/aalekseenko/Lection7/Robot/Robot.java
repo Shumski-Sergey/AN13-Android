@@ -1,8 +1,8 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot;
+package aalekseenko.Lection7.Robot;
 
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.hands.IHand;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads.IHead;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.legs.ILeg;
+import aalekseenko.Lection7.Robot.hands.IHand;
+import aalekseenko.Lection7.Robot.heads.IHead;
+import aalekseenko.Lection7.Robot.legs.ILeg;
 
 public class Robot implements IRobot {
     private IHead head;

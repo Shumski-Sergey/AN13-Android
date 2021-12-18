@@ -1,4 +1,4 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot;
+package aalekseenko.Lection7.Robot;
 
 public interface IRobot {
 

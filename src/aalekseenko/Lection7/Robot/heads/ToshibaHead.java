@@ -1,4 +1,4 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads;
+package aalekseenko.Lection7.Robot.heads;
 
 public class ToshibaHead implements IHead{
     private int price;

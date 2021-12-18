@@ -1,4 +1,4 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.legs;
+package aalekseenko.Lection7.Robot.legs;
 
 public class ToshibaLeg implements ILeg{
     private int price;

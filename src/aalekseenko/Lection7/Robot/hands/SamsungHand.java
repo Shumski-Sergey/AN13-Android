@@ -1,4 +1,4 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.hands;
+package aalekseenko.Lection7.Robot.hands;
 
 public class SamsungHand implements IHand{
     private int price;

@@ -1,15 +1,14 @@
-package aalekseenko.Lection7.Robot.src.by.teachmeskills.robot;
+package aalekseenko.Lection7.Robot;
 
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.hands.SamsungHand;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.hands.SonyHand;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.hands.ToshibaHand;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads.IHead;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads.SamsungHead;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads.SonyHead;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.heads.ToshibaHead;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.legs.SamsungLeg;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.legs.SonyLeg;
-import aalekseenko.Lection7.Robot.src.by.teachmeskills.robot.legs.ToshibaLeg;
+import aalekseenko.Lection7.Robot.hands.SamsungHand;
+import aalekseenko.Lection7.Robot.hands.SonyHand;
+import aalekseenko.Lection7.Robot.hands.ToshibaHand;
+import aalekseenko.Lection7.Robot.heads.SamsungHead;
+import aalekseenko.Lection7.Robot.heads.SonyHead;
+import aalekseenko.Lection7.Robot.heads.ToshibaHead;
+import aalekseenko.Lection7.Robot.legs.SamsungLeg;
+import aalekseenko.Lection7.Robot.legs.SonyLeg;
+import aalekseenko.Lection7.Robot.legs.ToshibaLeg;
 
 public class Run {
 
