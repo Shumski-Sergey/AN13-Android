@@ -1,3 +1,4 @@
+/*
 package sshumski.Lab8;
 
 import org.json.simple.JSONObject;
@@ -23,3 +24,4 @@ public class UrlGetJSONExample {
         System.out.println(jsonObject.get("Accept"));
     }
 }
+*/

@@ -11,12 +11,12 @@ public class Task_2 {
         File file = new File("D:\\Программы\\Koding\\AN13-Android\\src\\nshekov\\lesson9", "Task_2.txt");
         File fileInfo = new File("D:\\Программы\\Koding\\AN13-Android\\src\\nshekov\\lesson9");   //проверяемая папка
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
-        String [] files = fileInfo.list();
+        File [] files = fileInfo.listFiles();
         try {
             FileWriter writer = new FileWriter(file, false);
             BufferedWriter bufferWriter = new BufferedWriter(writer);
-            for (String a: files) {
-                    bufferWriter.write(fileInfo.getPath() + "\t" + a + "\t" + sdf.format(fileInfo.lastModified()) + "\n");
+            for (File a: files) {
+                    bufferWriter.write(a.getPath() + "\t" + sdf.format(a.lastModified()) + "\n");
             }
             bufferWriter.close();
         }
