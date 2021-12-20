@@ -39,8 +39,10 @@ public class Login {
 			System.out.print("Повторите пароль: ");
 			confPass = reader.readLine();
 			entrance(login, password, confPass);
+
 		} catch (WrongLoginException | WrongPasswordException e) {
 			System.out.println("Перехваченное исключение " + e);
 		}
+
 	}
 }
