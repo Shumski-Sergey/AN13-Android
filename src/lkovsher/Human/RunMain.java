@@ -9,7 +9,6 @@ import lkovsher.Human.Pants.ReebokPants;
 import lkovsher.Human.Shoes.NikeShoes;
 import lkovsher.Human.Shoes.PumaShoes;
 import lkovsher.Human.Shoes.ReebokShoes;
-import sshumski.Lab5.Person;
 
 public class RunMain {
     public static void main(String[] args) {

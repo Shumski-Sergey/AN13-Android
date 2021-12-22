@@ -1,4 +1,4 @@
-package ibagritsevich.lection_7.SpaceShuttle;
+package ibagritsevich.lection_7.Cosmodrome;
 
 public interface IStart {
     boolean PrelaunchCheck();

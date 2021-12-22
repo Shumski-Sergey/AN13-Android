@@ -1,4 +1,4 @@
-package ibagritsevich.lection_7.SpaceShuttle;
+package ibagritsevich.lection_7.Cosmodrome;
 
 public class Shuttle implements IStart {
 
@@ -22,7 +22,7 @@ public class Shuttle implements IStart {
     @Override
     public void EngineStarting() throws InterruptedException {
         int time = 10;
-        System.out.println("Двигатели Шатла запущены. Все системы в норме");
+        System.out.println("Двигатели Шатла запущены. Все системы в норме.");
         for (int i = time; i >=0; i--) {
             System.out.println("Осталось: " + ((i > 0)? i : "менее секунды"));
             Thread.sleep(1000L);
