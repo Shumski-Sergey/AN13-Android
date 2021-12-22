@@ -1,4 +1,4 @@
-package ibagritsevich.lection_7.Cosmodrome;
+package ibagritsevich.lection_7.Cosmodrom;
 
 public class Run {
     public static void main(String[] args) throws InterruptedException {
