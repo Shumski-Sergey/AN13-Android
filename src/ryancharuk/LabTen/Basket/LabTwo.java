@@ -8,11 +8,12 @@ public class LabTwo {
 		basket.addProduct("Хлеб",2);
 		basket.addProduct("Масло",3);
 		basket.addProduct("Молоко",4);
-		basket.addProduct("Вода",5);
+		basket.addProduct("Хлеб",5);
 
 		System.out.println(basket.getProducts());
 		basket.removeProduct("Масло");
 		System.out.println(basket.getProducts());
+		System.out.println(basket.getProductQuantity("Хлеб"));
 
 	}
 }
