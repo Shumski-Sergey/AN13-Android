@@ -1,0 +1,7 @@
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\OdnomMassTask1.java OdnomMassTask1.java 28.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\OdnomMassTask2.java OdnomMassTask2.java 29.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\Task1.java Task1.java 25.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\Task2.java Task2.java 26.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\Task3.java Task3.java 26.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\Task4.java Task4.java 28.11.2021
+C:\Users\User\IdeaProjects\AN13-Android\src\aalekseenko\Lection3\Task5.java Task5.java 28.11.2021
