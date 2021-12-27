@@ -1,10 +1,10 @@
-package nshekov.lesson11;
+package nshekov.lesson11.Library;
 
-public class BookToLibrary extends Thread{
+public class BookToHome extends Thread{
     private final String bookName;
     private boolean flag = true;
 
-    public BookToLibrary(String bookName) {
+    public BookToHome(String bookName) {
         this.bookName = bookName;
     }
 
@@ -15,7 +15,7 @@ public class BookToLibrary extends Thread{
     public synchronized void getBook(String personName){
         while (!flag){
             try {
-                System.out.println(bookName + " пока кто-то читает в библиотеке");
+                System.out.println(bookName + " пока у кого-то дома");
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -25,7 +25,7 @@ public class BookToLibrary extends Thread{
         flag = false;
     }
     public synchronized void putBook(String personName){
-        System.out.println(personName + " вернул(а) " + bookName);
+        System.out.println(personName + " вернул(а) в библиотеку " + bookName);
         flag = true;
         notify();
     }

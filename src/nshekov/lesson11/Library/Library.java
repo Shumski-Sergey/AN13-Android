@@ -1,4 +1,4 @@
-package nshekov.lesson11;
+package nshekov.lesson11.Library;
 
 public class Library {
     public static void main(String[] args) {
