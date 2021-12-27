@@ -9,8 +9,8 @@ public class TaskC1 {
         int a = scanner.nextInt();
         System.out.println(convertCelsiumToFahrenheit(a));
     }
-    public static double convertCelsiumToFahrenheit(int celsium) {
+    public static double convertCelsiumToFahrenheit(int a) {
         System.out.print("Температура в Фаренгейтах, F: ");
-        return (double) (celsium * 9 / 5) + 32;
+        return (double) (a * 9 / 5) + 32;
     }
 }
