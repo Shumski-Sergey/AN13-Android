@@ -10,33 +10,33 @@ public class Run {
         Smartabl smart = new Smartabl();
         Random random = new Random();
 
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         for(int i = 0; i < 30; i++){
             list.add(random.nextInt(11));
         }
         System.out.println(list);
         smart.removeInRang(list,element,start, end);
 
-        Map<String,String> map = new HashMap<String,String>();
+        Map<String,String> map = new HashMap<>();
         map.put("one","liz");
         map.put("two","olga");
         map.put("three","kate");
         map.put("dgv","liz");
         System.out.println(smart.isUniqu(map));
 
-        Map<String,Integer> map1 = new HashMap<String,Integer>();
+        Map<String,Integer> map1 = new HashMap<>();
         map1.put("Andrey",1);
         map1.put("liza",2);
         map1.put("Sergey",3);
 
-        Map<String,Integer> map2 = new HashMap<String,Integer>();
+        Map<String,Integer> map2 = new HashMap<>();
         map2.put("Andrey",1);
         map2.put("Sonya",2);
         map2.put("Sergey",3);
         System.out.println(smart.intersec(map1,map2));
 
-        List<Integer> list1 = new ArrayList<Integer>();
-        List<Integer> list2 = new ArrayList<Integer>();
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
         for(int i = 0; i < 10; i++){
             list1.add(random.nextInt(11));
         }
@@ -47,14 +47,14 @@ public class Run {
         System.out.println(list2);
         System.out.println(smart.countComm(list1,list2));
 
-        Set<String> set = new HashSet<String>();
+        Set<String> set = new HashSet<>();
         set.add("fghjk");
         set.add("fghkhbk");
         set.add("fghjkhgv");
         set.add("fghjkb");
         System.out.println(smart.removeEvenLen(set));
 
-        List<Integer> list3 = new ArrayList<Integer>();
+        List<Integer> list3 = new ArrayList<>();
         for(int i = 0; i < 10; i++){
             list3.add(random.nextInt(11));
         }

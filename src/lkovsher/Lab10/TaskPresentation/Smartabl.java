@@ -15,7 +15,7 @@ public class Smartabl implements Smartable {
 
     public boolean isUniqu(Map<String, String> map) {
         boolean flag = false;
-        Set<Object> uniqueValues = new HashSet<Object>(map.values());
+        Set<Object> uniqueValues = new HashSet<>(map.values());
         if(map.isEmpty()){
             flag = true;
         }
@@ -27,7 +27,7 @@ public class Smartabl implements Smartable {
 
 
     public Map<String, Integer> intersec(Map<String, Integer> map1, Map<String, Integer> map2) {
-        Map<String,Integer> map3 = new HashMap<String,Integer>();
+        Map<String,Integer> map3 = new HashMap<>();
         for (Map.Entry<String, Integer> enty1 : map1.entrySet()){
             for (Map.Entry<String, Integer> enty2 : map2.entrySet()){
                 if (enty1.equals(enty2)){
@@ -40,7 +40,7 @@ public class Smartabl implements Smartable {
 
 
     public int countComm(List<Integer> list1, List<Integer> list2) {
-        Set<Object> uniqueValues1 = new HashSet<Object>();
+        Set<Object> uniqueValues1 = new HashSet<>();
         for(int i = 0; i < list1.size(); i++){
             for (int j = 0; j < list2.size(); j++){
                 if(list1.get(i) == list2.get(j)){
@@ -53,12 +53,12 @@ public class Smartabl implements Smartable {
 
 
     public Set<String> removeEvenLen(Set<String> set) {
-        List<String> list1 = new LinkedList<String>(set);
+        List<String> list1 = new LinkedList<>(set);
         for(int i = 0; i < list1.size(); i++){
             if((list1.get(i).length() % 2) == 0){
                 list1.remove(i);
             }
-        };
+        }
         set.clear();
         set.addAll(list1);
         return set;
@@ -66,7 +66,7 @@ public class Smartabl implements Smartable {
 
 
     public int maxOccurren(List<Integer> list) {
-        int max = 0, temp = 0;
+        int max = 0, temp;
         for(int i = 0; i < 10; i++) {
             temp = Collections.frequency(list, i);
             if(max < temp){
