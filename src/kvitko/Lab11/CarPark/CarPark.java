@@ -1,4 +1,4 @@
-package kvitko.Lab11;
+package kvitko.Lab11.CarPark;
 
 public class CarPark {
     public String CarMark;

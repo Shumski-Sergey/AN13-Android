@@ -1,4 +1,4 @@
-package kvitko.Lab11;
+package kvitko.Lab11.BusStop;
 
 public class Run {
     public static void main(String[] args) {
